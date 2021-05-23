@@ -4,7 +4,16 @@
 lxc image import ./"$1"  --alias PrivEsc
 
 # Just Flexing :)
-echo "******CYBERJUNNKIE-SAYS-HELLO******"
+printf "
+_________        ___.                     ____.             __   .__        
+\_   ___ \___.__.\_ |__   ___________    |    |__ __  ____ |  | _|__| ____  
+/    \  \<   |  | | __ \_/ __ \_  __ \   |    |  |  \/    \|  |/ /  |/ __ \ 
+\     \___\___  | | \_\ \  ___/|  | \/\__|    |  |  /   |  \    <|  \  ___/ 
+ \______  / ____| |___  /\___  >__|  \________|____/|___|  /__|_ \__|\___  >
+        \/\/          \/     \/                          \/     \/       \/ 
+
+\n\n
+"
 sleep 3
 
 # loading a container from our image and giving it full access
