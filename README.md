@@ -2,7 +2,7 @@
 
 1. Git clone the repository
 
-2. Transfer lxd.sh and root.tar.gz to victim machine 
+2. Transfer `lxd.sh` and `root.tar.gz` to victim machine 
 
 3. chmod +x lxd.sh
 
