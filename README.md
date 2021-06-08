@@ -6,7 +6,7 @@
 
 3. chmod +x lxd.sh
 
-4. ./lxd.sh root.tar.gz
+4. run `./lxd.sh root.tar.gz`
 
 5. cd /mnt/root
 
